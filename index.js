@@ -23,10 +23,10 @@ function logWhisper(string) {
 logShout('HELLO');
 
 function sayHiToGrandma(string) {
-  if ("string" === lowercase);
+  if (string === "hello");
   return "I can\'t hear you!"
   
-  if ("string" === uppercase);
+  if (string !== "HELLO");
   return "YES INDEED!"
   
   if (string === "I love you, Grandma");
