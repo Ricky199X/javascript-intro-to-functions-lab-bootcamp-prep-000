@@ -23,8 +23,15 @@ function logWhisper(string) {
 logShout('HELLO');
 
 function sayHiToGrandma(string) {
-  if string === "";
+  if (string === "hello");
   return "I can't hear you!"
+  
+  if (string === "hello");
+  return "YES INDEED!"
+  
+  if (string === "I love you, Grandma");
+  return "I love you, too.";
+  
 }
-
+sayHiToGrandma('hello');
 
