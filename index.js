@@ -24,13 +24,13 @@ logShout('HELLO');
 
 function sayHiToGrandma(string) {
   if (string === "hello");
-  console.log ("I can\'t hear you!");
+  return "I can\'t hear you!"
   
   if (string !== "HELLO");
-  console.log ("YES INDEED!")
+  return "YES INDEED!"
   
   if (string === "I love you, Grandma");
-  console.log ("I love you, too.");
+  return "I love you, too.";
   
 }
 sayHiToGrandma('hello');
